@@ -1,3 +1,3 @@
-consle.log('welocme to quiz town, population...YOU!')
-
-@('.dynamic').hmtl('<div p>HI THERE, I\'M FROM JAVASCRIPT</p></div>').fadeIn('slo')
+console.log('welocme to quiz town, population...YOU!')
+var dyn = $('.dynamic');
+dyn.html('<div><p>HI THERE, IM FROM JAVASCRIPT</p></div>').fadeIn('slow');
